@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Casting Practice</title>
+  <meta name="description" content="OCR J277 practice: data types and casting with int(), float(), str() and bool(), in a real Python editor.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/ide.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐍</text></svg>">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="logo">🐍</span> Casting Practice</a>
+    <nav class="nav">
+      <a href="#code" data-page="code">💻 Code</a>
+      <a href="#help" data-page="help">❔ Help</a>
+      <a href="#report" data-page="report">📄 My report</a>
+    </nav>
+    <div class="mode-switch" id="mode-switch" role="group" aria-label="Difficulty"></div>
+    <span class="py-status loading" id="py-status">Loading Python...</span>
+  </header>
+
+  <main id="view" class="container"></main>
+  <div id="toast" class="toast" role="status"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/python/python.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/addon/edit/matchbrackets.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/addon/edit/closebrackets.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/addon/selection/active-line.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/addon/comment/comment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/addon/runmode/runmode.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/pyodide/v0.27.7/full/pyodide.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
+  <script src="js/harness.js"></script>
+  <script src="js/mistakes.js"></script>
+  <script src="js/content.js"></script>
+  <script src="js/endless.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/engine.js"></script>
+  <script src="js/ide.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
